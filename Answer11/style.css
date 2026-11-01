@@ -1,0 +1,50 @@
+:root {
+    --main-color: darkblue;
+    --box-color: lightyellow;
+    --text-size: 20px;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+h1 {
+    color: var(--main-color);
+    text-align: center;
+}
+
+.box {
+    width: 80%;
+    background-color: var(--box-color);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.pixel {
+    font-size: 20px;
+}
+
+.percentage {
+    width: 80%;
+    background-color: lightgreen;
+}
+
+.rem {
+    font-size: 1.5rem;
+}
+
+.container {
+    background-color: white;
+    padding: 2em;
+    margin: 2rem;
+    border: 2px solid var(--main-color);
+}
+
+.container h2 {
+    color: var(--main-color);
+}
+
+.container p {
+    font-size: var(--text-size);
+}
